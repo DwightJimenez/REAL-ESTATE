@@ -29,6 +29,26 @@
     @apply text-base font-bold text-primary hover:text-secondary;
   }
   .btn--primary {
-    @apply px-4 py-2 text-white bg-primary border w-fit rounded-lg transition duration-150 ease-in-out hover:text-primary hover:bg-white hover:border-primary;
+    @apply inline-block px-4 py-2 text-white bg-primary border w-fit rounded-lg transition duration-150 ease-in-out hover:text-primary hover:bg-white hover:border-primary;
+  }
+  .homeProperties__card {
+    @apply bg-white w-fit;
+  }
+  .homeProperties__card__details {
+    @apply p-4;
+  }
+  .homeProperties__card__details h5 {
+    @apply text-2xl font-bold;
+  }.homeProperties__card__details ul{
+    @apply my-5;
+  }
+  .homeProperties__card__details ul li{
+    @apply grid grid-cols-2 items-center;
+  }
+  .homeProperties__card__details h6{
+    @apply text-xl font-bold;
+  }
+  .homeProperties__card--price{
+    @apply flex justify-between items-center
   }
 }
